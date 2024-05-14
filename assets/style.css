@@ -1,11 +1,11 @@
 /* this is everything to do with the navigation bar */
 .top-nav {
     overflow: hidden;
-    background-color: #4d4d4d;
+    background-color: #0c4214;
     font-family: Cochin;
     position: fixed;
     width: 100%;
-    ;
+    z-index: 1;
 }
 .top-nav a {
     float: left; 
@@ -21,10 +21,44 @@
     color: black;
   }
   
-  .top-nav a.active {
+  .top-nav a.logo {
     background-color: #455fe1;
     color: white;
+    font-family: impact;
   }
   .top-nav-right {
     float: right;
+    margin-right: 2%;
   }
+
+  /* This section is CSS for home section*/
+  .home {
+    padding-top: 60px;
+  }
+  .home-intro {
+    width: 100%;
+    position: absolute;
+    display: flex;
+  }
+  .top-bilder {
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 2;
+  }
+.home-intro-text {
+    position: absolute;
+    background-color: #455fe1a4;
+    max-width: 50%;
+    max-height: 70%;
+    z-index: 3;
+    align-self: center;
+    margin-left: 10%;
+    padding: 5px 15px 5px 15px;
+}
+.home-intro-text h2 {
+    font-size: 30px;
+    font-family: gill sans;
+    color: white;
+}
