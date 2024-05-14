@@ -5,7 +5,7 @@
     font-family: Cochin;
     position: fixed;
     width: 100%;
-    z-index: 1;
+    z-index: 9;
 }
 .top-nav a {
     float: left; 
@@ -34,10 +34,15 @@
   /* This section is CSS for home section*/
   .home {
     padding-top: 60px;
+    max-height: 900px;
+    overflow: hidden;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 3px;
   }
   .home-intro {
     width: 100%;
-    position: absolute;
+    position: static;
     display: flex;
   }
   .top-bilder {
@@ -45,16 +50,20 @@
     display: block;
     margin-right: auto;
     margin-left: auto;
-    z-index: 2;
+    z-index: 1;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
   }
 .home-intro-text {
     position: absolute;
-    background-color: #00000074;
+    background-color: #0000002b;
     border-radius: 2.5%;
     max-width: 40%;
-    max-height: 70%;
-    z-index: 3;
-    align-self: center;
+    max-height: 80%;
+    margin-top: 2%;
+    z-index: 2;
+    align-self:flex-start;
     margin-left: 5%;
     padding: 5px 15px 5px 15px;
 }
@@ -66,9 +75,29 @@
 .home-intro-text p {
     font-size: 30px;
     color: white;
+    font-family: ;
 }
 .home-intro-text ul li {
     font-size: 25px;
     list-style-type: circle;
     color: white;
+    margin-bottom: 5px;
+}
+.sign-button {
+  z-index: 3;
+  position: absolute;
+  align-self: center;
+  margin-left: 34rem;
+}
+.button {
+  background-color: rgba(216, 58, 14, 0.872);
+  border: none;
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  padding: 15px 32px;
+  border-radius: 2.5%;
+}
+.button:hover {
+  background-color: #0c4214;
 }
