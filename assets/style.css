@@ -49,16 +49,26 @@
   }
 .home-intro-text {
     position: absolute;
-    background-color: #455fe1a4;
-    max-width: 50%;
+    background-color: #00000074;
+    border-radius: 2.5%;
+    max-width: 40%;
     max-height: 70%;
     z-index: 3;
     align-self: center;
-    margin-left: 10%;
+    margin-left: 5%;
     padding: 5px 15px 5px 15px;
 }
 .home-intro-text h2 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: gill sans;
+    color: white;
+}
+.home-intro-text p {
+    font-size: 30px;
+    color: white;
+}
+.home-intro-text ul li {
+    font-size: 25px;
+    list-style-type: circle;
     color: white;
 }
