@@ -87,7 +87,7 @@
   z-index: 3;
   position: absolute;
   align-self: center;
-  margin-left: 34rem;
+  margin-left: 32rem;
 }
 .button {
   background-color: rgba(216, 58, 14, 0.872);
@@ -103,19 +103,36 @@
 }
 /* This part of the code is for the "why" section */ 
 #why {
-  display: block;
+  max-height: 1050px;
 }
-#why ul li {
-  list-style-type: number;
-  font-size: 50px;
-}
-.right-text {
-  max-width: 25%;
-  max-height: 400px;
+/* Left text box */
+.left-text {
+  width: 25%;
+  height: 350px;
   border: solid black 5px;
   display: inline-block;
+  padding: 10px;
+  vertical-align: top;
   margin-top: 20px;
-
+}
+.left-text h3 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.left-text p {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+/* Right text box */
+.right-text {
+  display:inline-block;
+  width: 25%;
+  height: 350px;
+  border: solid black 5px;
+  position:static;
+  padding: 10px;
+  vertical-align: top;
+  margin-top: 20px;
 }
 .right-text h3 {
   font-size: 40px;
@@ -125,8 +142,41 @@
   font-size: 30px;
   font-family: sans-serif;
 }
+/* hidden divs */
 .hidden {
-  max-width: 25%;
+  width: 25%;
   display: inline-block;
+  max-height: 400px;
+  border: black 5px solid;
+  height: 370px;
+  vertical-align: top;
+  margin-top: 20px;
+  visibility: hidden;
+}
+.hidden2 {
+  width: 25%;
+  display: inline-block;
+  max-height: 400px;
+  border: black 5px solid;
+  height: 350px;
+  visibility: hidden;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* second row "why" section */
+.row-two-text {
+  width: 25%;
+  border: black 5px solid;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+.row-two-text h3 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.row-two-text p {
+  font-size: 30px;
+  font-family: sans-serif;
 }
 /* This part is all about making the site reactive */ 
