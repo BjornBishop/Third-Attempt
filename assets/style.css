@@ -102,11 +102,17 @@
   background-color: #0c4214;
 }
 /* This part of the code is for the "why" section */ 
-#why {
+#why-section {
   max-width: 100%;
-  position: absolute;
+  max-height: 600px;
 }
-.left-text {
+.text-left {
+  max-width: 50%;
+}
+.left-text p {
   font-size: 30px;
   font-family: sans-serif;
+  border: solid black 5px;
 }
+/* This part is all about making the site reactive */ 
+@media screen and (max-width: )
