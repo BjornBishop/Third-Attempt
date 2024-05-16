@@ -75,7 +75,7 @@
 .home-intro-text p {
     font-size: 30px;
     color: white;
-    font-family: ;
+    font-family: sans-serif;
 }
 .home-intro-text ul li {
     font-size: 25px;
@@ -102,10 +102,11 @@
   background-color: #0c4214;
 }
 /* This part of the code is for the "why" section */ 
-.why {
+#why {
   max-width: 100%;
-  background-color: #0c4214;
-  border: #455fe1;
-  border-width: 3px;
-  max-height: 600px;
+  position: absolute;
+}
+.left-text {
+  font-size: 30px;
+  font-family: sans-serif;
 }

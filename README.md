@@ -110,3 +110,13 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+center an image:
+https://www.w3schools.com/howto/howto_css_image_center.asp
+
+Z-index - how does it work?:
+https://blog.hubspot.com/website/z-index#:~:text=z%2Dindex%20is%20the%20CSS,elements%20along%20the%20z%2Daxis.
+
+
+
