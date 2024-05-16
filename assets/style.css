@@ -102,17 +102,31 @@
   background-color: #0c4214;
 }
 /* This part of the code is for the "why" section */ 
-#why-section {
-  max-width: 100%;
-  max-height: 600px;
+#why {
+  display: block;
 }
-.text-left {
-  max-width: 50%;
+#why ul li {
+  list-style-type: number;
+  font-size: 50px;
 }
-.left-text p {
+.right-text {
+  max-width: 25%;
+  max-height: 400px;
+  border: solid black 5px;
+  display: inline-block;
+  margin-top: 20px;
+
+}
+.right-text h3 {
+  font-size: 40px;
+  font-family: sans-serif;
+}
+.right-text p {
   font-size: 30px;
   font-family: sans-serif;
-  border: solid black 5px;
+}
+.hidden {
+  max-width: 25%;
+  display: inline-block;
 }
 /* This part is all about making the site reactive */ 
-@media screen and (max-width: )
