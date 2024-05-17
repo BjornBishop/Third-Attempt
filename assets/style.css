@@ -179,4 +179,20 @@
   font-size: 30px;
   font-family: sans-serif;
 }
+/* third row "why" section */
+.row-three-text {
+    width: 25%;
+    border: black 5px solid;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+}
+.row-three-text h3{
+  font-size: 30px;
+  font-family: sans-serif;
+}
+.row-three-text p {
+  font-size: 30px;
+  font-family: sans-serif;
+}
 /* This part is all about making the site reactive */ 
