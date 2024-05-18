@@ -106,6 +106,9 @@
   max-height: 1050px;
   display: inline;
 }
+.highlights {
+  color: #1d35ad;
+}
 /* Left text box */
 .left-text {
   width: 25%;
@@ -199,7 +202,7 @@
   font-family: sans-serif;
 }
 /* learn more button */
-.learn-more-button {
+.success-button {
   width: 100%;
   align-self: center;
   background-color: #455fe1;
@@ -208,19 +211,51 @@
   font-family: gill sans;
   text-align: center;
 }
-.learn-more-button p {
+.success-button p {
   color: white;
 }
 /* This is the "about" section */
-.about {
-  position: absolute;
+#about {
+  position: static;
   display:inline;
   width: 100%;
 }
 .about-text {
-  max-width: 60%;
-  vertical-align: top;
-  height: 400px;
+  height: 470px;
+  width: 50%;
+  border-radius: 2.5%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
+  display:inline-block;
+  margin-left: 25%;
+  padding: 15px;
+}
+.about-text h3 {
+  font-size: 30px;
+  font-family: verdana;
+  text-align: center;
+  color: #1d35ad;
+}
+.about-text p {
+  font-size: 25px;
+  font-family: sans-serif;
+}
+/* this section is all about the success stories */
+#success {
+  width: 100%;
   display: inline;
+  position: static;
+  align-items: center;
+  gap: 10px;
+}
+.success-text {
+  text-align: center;
+}
+.success-text img {
+  width: 150px;
+  vertical-align: top;
+  align-self: center;
+}
+.story1 {
+  width: 20%;
 }
 /* This part is all about making the site reactive */ 
