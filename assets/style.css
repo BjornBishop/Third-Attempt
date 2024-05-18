@@ -104,6 +104,7 @@
 /* This part of the code is for the "why" section */ 
 #why {
   max-height: 1050px;
+  display: inline;
 }
 /* Left text box */
 .left-text {
@@ -116,11 +117,11 @@
   margin-top: 20px;
 }
 .left-text h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: sans-serif;
 }
 .left-text p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
 }
 /* Right text box */
@@ -135,11 +136,11 @@
   margin-top: 20px;
 }
 .right-text h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: sans-serif;
 }
 .right-text p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
 }
 /* hidden divs */
@@ -166,22 +167,24 @@
 /* second row "why" section */
 .row-two-text {
   width: 25%;
+  height: 350px;
   display: inline-block;
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
   vertical-align: top;
   padding: 10px;
 }
 .row-two-text h3 {
-  font-size: 40px;
+  font-size: 30px;
   font-family: sans-serif;
 }
 .row-two-text p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
 }
 /* third row "why" section */
 .row-three-text {
     width: 25%;
+    height: 350px;
     display: inline-block;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
     vertical-align: top;
@@ -192,14 +195,13 @@
   font-family: sans-serif;
 }
 .row-three-text p {
-  font-size: 30px;
+  font-size: 25px;
   font-family: sans-serif;
 }
 /* learn more button */
 .learn-more-button {
   width: 100%;
   align-self: center;
-  position: static;
   background-color: #455fe1;
   color: white;
   font-size: 30px;
@@ -208,5 +210,17 @@
 }
 .learn-more-button p {
   color: white;
+}
+/* This is the "about" section */
+.about {
+  position: absolute;
+  display:inline;
+  width: 100%;
+}
+.about-text {
+  max-width: 60%;
+  vertical-align: top;
+  height: 400px;
+  display: inline;
 }
 /* This part is all about making the site reactive */ 
