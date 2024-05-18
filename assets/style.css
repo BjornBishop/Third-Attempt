@@ -109,8 +109,8 @@
 .left-text {
   width: 25%;
   height: 350px;
-  border: solid black 5px;
   display: inline-block;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.137);
   padding: 10px;
   vertical-align: top;
   margin-top: 20px;
@@ -128,8 +128,8 @@
   display:inline-block;
   width: 25%;
   height: 350px;
-  border: solid black 5px;
   position:static;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
   padding: 10px;
   vertical-align: top;
   margin-top: 20px;
@@ -166,8 +166,8 @@
 /* second row "why" section */
 .row-two-text {
   width: 25%;
-  border: black 5px solid;
   display: inline-block;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
   vertical-align: top;
   padding: 10px;
 }
@@ -182,8 +182,8 @@
 /* third row "why" section */
 .row-three-text {
     width: 25%;
-    border: black 5px solid;
     display: inline-block;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
     vertical-align: top;
     padding: 10px;
 }
@@ -194,5 +194,19 @@
 .row-three-text p {
   font-size: 30px;
   font-family: sans-serif;
+}
+/* learn more button */
+.learn-more-button {
+  width: 100%;
+  align-self: center;
+  position: static;
+  background-color: #455fe1;
+  color: white;
+  font-size: 30px;
+  font-family: gill sans;
+  text-align: center;
+}
+.learn-more-button p {
+  color: white;
 }
 /* This part is all about making the site reactive */ 
