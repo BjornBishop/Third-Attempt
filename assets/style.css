@@ -32,7 +32,7 @@
   }
 
   /* This section is CSS for home section*/
-  .home {
+  #home {
     padding-top: 60px;
     max-height: 900px;
     overflow: hidden;
@@ -245,17 +245,32 @@
   display: inline;
   position: static;
   align-items: center;
-  gap: 10px;
+  margin-top: 50px;
 }
 .success-text {
-  text-align: center;
+  display: inline-block;
+  margin: 35px;
+  width: 550px;
+  vertical-align: top;
 }
 .success-text img {
   width: 150px;
   vertical-align: top;
   align-self: center;
+  border: 2px black solid;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.137);
 }
-.story1 {
-  width: 20%;
+.story h4{
+  text-align: center;
+  font-size: 25px;
+}
+.story p {
+  font-size: 20px;
+}
+/* This is all about the "sign up" section */
+.sign-up {
+  background-color: #1d35ad;
+  width: 100%;
+  height: 800px;
 }
 /* This part is all about making the site reactive */ 
